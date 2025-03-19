@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script>
+        (function(){
+            emailjs.init("Vrfe_vDchmCpWbsEc"); // Replace with your EmailJS Public Key
+        })();
+    </script>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo"></a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">skills</a>
+                <a href="#projects">Projects</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi! My Name is Chanchal </h1>
+            <h2>I am a First year student pursuing B-Tech in computer Science.</h2>
+            <p>I am a passionate learner, eager to learn new technologies in the computer field. And want to start my career as a programmer.</p>
+        </div>
+        <div class="home-img">
+            <img src="images/profile.jpg" alt="Profile Image">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/profile.jpg" alt="profile Image">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>"I am a first-year Computer Science student with a strong passion for technology and problem-solving.
+                I am eager to explore various domains of computing, including programming, software development, and emerging technologies. 
+                In my first term, I achieved a CGPA of 9.05, reflecting my dedication to academic excellence.
+                Currently, I’m deepening my understanding of data structures and algorithms, which has sparked 
+                my interest in efficient problem-solving. I am actively learning Python and Java, while also experimenting with 
+                web development frameworks through small projects and coding challenges. By participating in coding clubs and hackathons, 
+                I have developed strong teamwork and communication skills, and I am continually seeking opportunities to learn and grow. 
+                My goal is to apply my skills in real-world settings through internships and collaborative projects, contributing to 
+                innovative tech solutions." </p>
+            </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="bx bxl-html5"></i>
+                    <h4>HTML</h4>
+                    <div class="progress-bar" style="width: 90%">
+                        <div class="progress html">90%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="bx bxl-css3"></i>
+                    <h4>CSS</h4>
+                    <div class="progress-bar" style="width: 85%">
+                        <div class="progress css">85%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="bx bxl-javascript"></i>
+                    <h4>JavaScript</h4>
+                    <div class="progress-bar"style="width: 70%">
+                        <div class="progress javascript">70%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="bx bxl-python"></i>
+                    <h4>Python</h4>
+                    <div class="progress-bar" style="width: 85%;">
+                        <div class="progress python">85%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>      
+    <section class="projects" id="projects">
+        <div class="top-header">
+            <h1>Projects</h1>
+        </div>
+        <div class="project-list">
+            <div class="project" data-category="web">
+                <a href="https://legalanalyzerapps.tiiny.site/" target="_blank">Web Project. <p>By using JavaScript and Python programming</p></a>
+            </div>
+            <div class="project" data-category="web">
+                <a href="https://www.canva.com/design/DAGawoRcUXE/dIW9miVaaLco3jPU97Vn6w/edit?utm_content=DAGawoRcUXE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Operating System <p>Search Engine.</p></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
